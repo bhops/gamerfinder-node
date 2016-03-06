@@ -19,6 +19,10 @@
     "passport-jwt": "^2.0.0"
   },
   "devDependencies": {
-    "sqlite3": "^3.1.1"
+    "mocha": "^2.4.5",
+    "passport-stub": "^1.1.1",
+    "should": "^8.2.2",
+    "sqlite3": "^3.1.1",
+    "supertest": "^1.2.0"
   }
 }

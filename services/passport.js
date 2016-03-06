@@ -13,7 +13,7 @@ var opts = {
 passport.use(new Strategy({
     clientID: process.env.FB_CLIENT_ID,
     clientSecret: process.env.FB_CLIENT_SECRET,
-    callbackURL: 'http://localhost:3000/login/facebook/callback',
+    callbackURL: 'http://localhost:4200/login',
     profileFields: ['id', 'first_name', 'last_name', 'gender', 'email']
   },
   function(accessToken, refreshToken, profile, cb) {
